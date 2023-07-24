@@ -97,13 +97,9 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: var(--white);
+    background-color: var(--primary);
     transform: scaleX(0);
     transition: transform 0.3s ease;
-}
-
-.header .nav::before {
-    background-color: var(--white);
 }
 
 .nav:hover::before {

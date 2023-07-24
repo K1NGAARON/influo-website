@@ -31,4 +31,7 @@
 
 .section .wrapper.box-wrapper .item .item-content {
     display: none;
+    flex-direction: column;
+    gap: 10px;
+    transition: var(--transition);
 }
