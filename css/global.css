@@ -193,6 +193,14 @@ img {
     z-index: 3;
 }
 
+.banner {
+    position: relative;
+}
+
+.banner .row {
+    z-index: 9;
+}
+
 .section.contact .row.flex-col {
     align-items: flex-start;
 }
