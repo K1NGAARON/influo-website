@@ -55,7 +55,7 @@
 }
 
 .header .container .nav {
-    color: var(--white);
+    color: var(--black);
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
@@ -113,7 +113,7 @@
 .footer {
     min-height: unset;
     color: var(--white);
-    background-color: var(--black);
+    background-color: var(--primary);
 }
 
 .footer .row {
