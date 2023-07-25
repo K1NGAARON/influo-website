@@ -41,3 +41,38 @@
     display: flex;
     transition: var(--transition);
 }
+
+.section .wrapper.box-wrapper .item.expand.active {
+    background-color: var(--yellow);
+}
+
+.section .wrapper.box-wrapper .item.expand.active a {
+    color: var(--white);
+}
+
+.logos.section .logos-wrapper .item {
+    justify-content: center;
+    align-items: center;
+}
+
+.logos.section .logos-wrapper .item img {
+    max-width: 100px;
+}
+
+.reviews.section .reviews-wrapper {
+    gap: 40px;
+}
+
+.reviews.section .reviews-wrapper .item {
+    padding: 30px;
+    border-radius: 9px;
+    box-shadow: var(--boxShadow);
+}
+
+.reviews.section .reviews-wrapper .item .rating {
+    color: var(--yellow);
+}
+
+.reviews.section .reviews-wrapper .item p {
+    font-size: 14px;
+}
