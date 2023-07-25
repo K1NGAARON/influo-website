@@ -27,11 +27,17 @@
 .section .wrapper.box-wrapper .item.blue-accent {
     border-color: var(--primary);
     box-shadow: var(--box-shadow-blue);
+    height: fit-content;
 }
 
 .section .wrapper.box-wrapper .item .item-content {
     display: none;
     flex-direction: column;
     gap: 10px;
+    transition: var(--transition);
+}
+
+.section .wrapper.box-wrapper .item .item-content.active {
+    display: flex;
     transition: var(--transition);
 }
