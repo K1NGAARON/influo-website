@@ -56,9 +56,9 @@
 
 .header .container .nav {
     color: var(--black);
+    font-size: 14px;
     font-weight: 600;
     text-decoration: none;
-    text-transform: uppercase;
     opacity: 1;
     transition: var(--transition);
 }

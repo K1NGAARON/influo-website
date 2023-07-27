@@ -117,7 +117,7 @@ img {
     justify-content: center;
     align-items: center;
     gap: 60px;
-    margin: 80px auto;
+    margin: 100px auto;
     padding: 0 60px;
 }
 
@@ -176,7 +176,8 @@ img {
 .wrapper {
     display: flex;
     flex-flow: row wrap;
-    gap: 20px;
+    gap: 40px;
+    margin-top: 20px;
     width: 100%;
 }
 
