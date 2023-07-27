@@ -145,6 +145,7 @@ img {
 
 .btn {
     width: fit-content;
+    font-size: 14px;
     font-weight: 600;
     text-decoration: none;
     text-align: center;
