@@ -69,9 +69,14 @@
 }
 
 .reviews.section .reviews-wrapper .item {
+    justify-content: center;
     padding: 30px;
     border-radius: 9px;
     box-shadow: var(--boxShadow);
+}
+
+.reviews.section .reviews-wrapper .item.large {
+    flex: 2 0;
 }
 
 .reviews.section .reviews-wrapper .item .rating {
@@ -79,5 +84,13 @@
 }
 
 .reviews.section .reviews-wrapper .item p {
-    font-size: 14px;
+    font-size: 12px;
+}
+
+@media (max-width: 560px) {
+    .banner .row .col:nth-child(1),
+    .section .wrapper.box-wrapper .item.blue-accent,
+    .reviews.section .reviews-wrapper .item {
+        flex: 1 0 100%
+    }
 }
