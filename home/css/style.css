@@ -36,15 +36,17 @@
 }
 
 .section .wrapper.box-wrapper .item .item-content {
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
     flex-direction: column;
     gap: 10px;
-    transition: var(--transition);
+    transition: max-height 0.5s ease, opacity 0.5s ease;
 }
 
-.section .wrapper.box-wrapper .item .item-content.active {
-    display: flex;
-    transition: var(--transition);
+.section .wrapper.box-wrapper .item.expand.active .item-content {
+    max-height: 200px;
+    opacity: 1;
 }
 
 .section .wrapper.box-wrapper .item.expand.active {
