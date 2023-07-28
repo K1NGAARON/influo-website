@@ -11,6 +11,7 @@
     --box-shadow-yellow: 5px 5px 0px 0px var(--yellow);
     --box-shadow-blue: 5px 5px 0px 0px var(--primary);
     --borderRadius: 26px;
+    --borderRadiusBtn: 100px;
     --overlay: var(--black);
     --overlayVertical: linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(0,0,0,0) 70%);
     --transition: all .25s ease-in-out;

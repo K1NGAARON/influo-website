@@ -1,0 +1,69 @@
+.banner.blue {
+    color: var(--white);
+    background-color: var(--primary);
+}
+
+.header .container .nav {
+    color: var(--white);
+}
+
+.header .container .nav::before {
+    background-color: var(--white);
+}
+
+.section h2 {
+    width: 100%;
+    text-align: left;
+}
+
+.logos-wrapper.wrapper {
+    width: 60%;
+    align-items: center;
+    gap: 40px;
+}
+
+.section .form-wrapper {
+    color: var(--black);
+    flex-direction: column;
+    background-color: var(--yellow);
+    border-radius: 26px;
+    margin-right: 0;
+}
+
+.section .form-wrapper label {
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.section .form-wrapper input {
+    background-color: var(--white);
+    border: none;
+    border-radius: var(--borderRadiusBtn);
+}
+
+.section .form-wrapper .btn {
+    background-color: var(--primary);
+}
+
+.section .form-wrapper .small {
+    font-size: 14px;
+    text-align: center;
+}
+
+.social-proof .social-proof-wrapper .item {
+    gap: 40px;
+}
+
+.social-proof-wrapper img {
+    width: 75px;
+    border-radius: 50%;
+}
+
+.social-proof-wrapper .item-col {
+    display: flex;
+    gap: 20px;
+}
+
+.social-proof-wrapper .item .item-col:nth-child(2) {
+    margin-top: auto;
+}
