@@ -1,0 +1,27 @@
+.section .form-wrapper {
+    color: var(--black);
+    flex-direction: column;
+    background-color: var(--yellow);
+    border-radius: 26px;
+    margin-right: 0;
+}
+
+.section .form-wrapper label {
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.section .form-wrapper input {
+    background-color: var(--white);
+    border: none;
+    border-radius: var(--borderRadiusBtn);
+}
+
+.section .form-wrapper .btn {
+    background-color: var(--primary);
+}
+
+.section .form-wrapper .small {
+    font-size: 14px;
+    text-align: center;
+}
