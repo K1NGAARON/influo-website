@@ -45,10 +45,14 @@
     font-weight: 700;
     color: var(--white);
     background-color: var(--primary);
+    transition: var(--transition);
+    margin-top: 20px;
 }
 
 .section .form-wrapper .hs-button:hover {
     cursor: pointer;
+    transform: scale(1.05);
+    transition: var(--transition);
 }
 
 .social-proof .social-proof-wrapper .item {
