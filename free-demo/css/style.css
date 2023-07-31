@@ -30,7 +30,7 @@
     margin-right: 0;
 }
 
-.section .form-wrapper label {
+.section .form-wrapper span {
     font-weight: 700;
     margin-top: 20px;
 }
@@ -41,13 +41,14 @@
     border-radius: var(--borderRadiusBtn);
 }
 
-.section .form-wrapper .btn {
+.section .form-wrapper .hs-button {
+    font-weight: 700;
+    color: var(--white);
     background-color: var(--primary);
 }
 
-.section .form-wrapper .small {
-    font-size: 14px;
-    text-align: center;
+.section .form-wrapper .hs-button:hover {
+    cursor: pointer;
 }
 
 .social-proof .social-proof-wrapper .item {
