@@ -42,6 +42,10 @@
     width: 100px;
 }
 
+.footer .logo {
+    fill: var(--white);
+}
+
 .header .nav-logo {
     margin-right: auto;
 }

@@ -11,6 +11,10 @@
     background-color: var(--white);
 }
 
+.header .logo {
+    fill: var(--white);
+}
+
 .section h2 {
     width: 100%;
     text-align: left;
