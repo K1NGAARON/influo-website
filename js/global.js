@@ -41,3 +41,20 @@ window.addEventListener("DOMContentLoaded", function() {
         // Shows cookieBanner
     }
 });
+
+let animationStyle = "slideUp";
+let animationTarget = ".animate";
+
+// SLIDE UP ROWS IN VIEWPORT
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add(animationStyle);
+        }
+      });
+  });
+  
+const targets = document.querySelectorAll(animationTarget);
+for (const target of targets) {
+    observer.observe(target);
+}

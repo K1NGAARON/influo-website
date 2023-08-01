@@ -326,6 +326,23 @@ img {
     display: none!important;
 }
 
+
+.slideUp {
+    animation: slide-up 1.5s ease 0s 1 normal forwards;
+}
+
+@keyframes slide-up {
+	0% {
+		opacity: 0;
+		transform: translateY(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
 @media all and (max-width: 540px) {
     .cookie-banner-wrapper {
         width: 100%;
