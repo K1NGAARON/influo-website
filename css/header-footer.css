@@ -132,6 +132,7 @@
 .header .dropdown-holder {
     position: relative;
     display: flex;
+    padding-bottom: 5px;
 }
 
 .header .dropdown-holder.white a {
