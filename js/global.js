@@ -18,6 +18,17 @@ function closeMenu() {
 
 $('.small-menu-content .nav').click(closeMenu);
 
+function toggleMenuDropdown(e) {
+    if ($(this).parent().hasClass("active")) {
+        $(this).parent().removeClass('active');
+    } else {
+        $('.dropdown-btn').parent().removeClass('active');
+        $(this).parent().addClass('active');
+    }
+};
+
+$('.dropdown-btn').click(toggleMenuDropdown);
+
 const cookieBanner = document.querySelector(".cookie-banner-wrapper");
 const cookiesAccepted = document.querySelector("#accept-cookies");
 const blackOverlay = document.querySelector("#overlay");
