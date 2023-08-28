@@ -118,14 +118,6 @@
     flex-flow: row wrap;
 }
 
-/* .why.section .why-wrapper .wrapper-col:nth-child(1) {
-    flex: 1 0;
-}
-
-.why.section .why-wrapper .wrapper-col:nth-child(2) {
-    flex: 2 0;
-} */
-
 .why.section .why-wrapper .wrapper-col {
     flex: 1 0;
     display: flex;

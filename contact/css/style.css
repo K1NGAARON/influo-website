@@ -22,7 +22,7 @@
     border-radius: var(--borderRadiusBtn);
 }
 
-.section .form-wrapper .hs-button {
+.section .form-wrapper .btn {
     font-weight: 700;
     color: var(--white);
     background-color: var(--primary);
@@ -30,7 +30,7 @@
     margin-top: 20px;
 }
 
-.section .form-wrapper .hs-button:hover {
+.section .form-wrapper .btn:hover {
     cursor: pointer;
     transform: scale(1.05);
     transition: var(--transition);
